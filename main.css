@@ -1,0 +1,23 @@
+.container {
+  width: 80vw;
+}
+.container .img .img-box img,
+.container .img .img-box canvas {
+  max-width: 45vw;
+  max-height: 60vh;
+}
+.container .filters ul li {
+  direction: rtl;
+}
+@media (max-width: 650px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .container .img .img-box img,
+  .container .img .img-box canvas {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+}
